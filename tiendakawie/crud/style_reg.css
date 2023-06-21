@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+
+.container{
+    width: 100%;
+    height: 600px;
+    
+  
+
+    
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+}
+.row{
+    margin-top: 15px;
+    width: 40%;
+    height: 500px;
+   
+    display: flex;
+    align-items: center;
+    box-shadow: 8px 8px 8px 8px  black;
+    
+    
+
+    flex-direction: column;
+
+}
+.row form{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+
+    
+}
+h1{
+    color: rgb(145, 255, 0);
+    font-family: monospace;
+}
+form{
+    background-color: transparent white;
+    height: 100%;
+    width: 100%;
+}
+form input{
+    margin-top: 38px;
+    background: transparent;
+    
+    border: none;
+    width: 60%;
+    height: 30px;
+    text-align: center;
+    border-bottom: 2px solid red;
+    outline: none;
+    color: white;
+    
+   
+}
+
+
+form input:hover{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background: rgb(39, 39, 39);
+   
+    transition: 1s;
+}
+form input::placeholder{
+    color: rgb(218, 213, 213);
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1024px){
+    .miVideo{
+        width: 100%;
+       
+        
+    }
+   
+}
+@media screen and (min-width:768px)
+{
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DATOSSSS
